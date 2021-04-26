@@ -9,6 +9,7 @@ GPIO.setup(11, GPIO.OUT)       #We set the GPIO17 pin on the 11th as OUTPUT
 TOKEN = "Your Bot's Token"
 
 description = '''Python Discord Bot'''
+
 bot = commands.Bot(command_prefix='!', description=description)  
 #our distinctive symbol "!" We set it to (exclamation). So when entering the command,we will enter it like !command
 
